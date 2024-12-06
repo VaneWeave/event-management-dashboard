@@ -1,4 +1,5 @@
 # Event Management Dashboard
+## Fest io
 ### **Executive Summary**
 The proposed solution is a feature-rich, role-based Event Management Dashboard that streamlines event creation, management, and user interaction. Utilizing modern technologies such as Node.js, Express, PostgreSQL (NeonDB), and Next.js, the platform will provide a secure, responsive, and user-friendly experience. Role-based authentication ensures differentiated access for organizers and attendees. The inclusion of a notification system using Nodemailer ensures timely alerts for new events, upcoming deadlines, and registrations. This project employs a modular and scalable architecture, leveraging cutting-edge tools like Framer Motion, TanStack Query, and Shadcn, with TypeScript for robust code quality.
 
