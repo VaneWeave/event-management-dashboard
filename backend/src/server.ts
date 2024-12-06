@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import app, { corsOptions } from './app';
+import app, { corsOptions } from './app.js';
 
 // Load Environment Variables
 dotenv.config();
@@ -16,7 +16,7 @@ const clientPort = Number(process.env.CLIENT_PORT) || 3000;
 
 
 const server = app.listen(serverPort, () => {
-    console.log(`server started at http://127.0.0.1:${serverPort}`);
+    console.log(`Server started at http://127.0.0.1:${serverPort}`);
 })
 
 corsOptions(clientPort);
