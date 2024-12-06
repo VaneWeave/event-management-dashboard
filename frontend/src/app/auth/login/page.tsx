@@ -22,7 +22,7 @@ function Login() {
     const onSubmit = async (data: FormValues) => {
         try {
             await loginAdmin(data.email, data.password);
-            router.push("/admin");
+            router.push("/dashboard");
         } catch (error: any) {
             console.error(
                 "Login failed:",
